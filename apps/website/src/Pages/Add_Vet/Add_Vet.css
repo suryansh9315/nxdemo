@@ -1,0 +1,136 @@
+.Add_VetSec {
+  padding: 80px 0px;
+}
+.Add_Vat_Data {
+  display: grid;
+  grid-template-columns: 68% 30%;
+  grid-gap: 22px;
+}
+.Left_Vat_Details {
+  border: 1px solid #5d412f33;
+  padding: 40px;
+  border-radius: 18px;
+}
+.LeftProfileDiv Form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.PersonlInfoDiv,
+.doctadressdiv,
+.ProfBackDiv,
+.abilityDiv,
+.crtlogn,
+.AuthrizDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.perInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.perInfo h6,
+.doctadressdiv h6,
+.ProfBackDiv h6,
+.crtlogn h6,
+.AuthrizDiv h6 {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22.8px;
+  letter-spacing: -0.02em;
+  font-family: var(--grotesk-font);
+  color: var(--chilli-red);
+  margin: 0;
+}
+
+.DoctGendr {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+}
+.DoctGendr p,
+.ConsultFee p,
+.SynclndrDiv p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: -0.02em;
+  color: #302f2e;
+  margin: 0;
+}
+
+.ConsultFee {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.SynclndrDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+}
+.AuthrzData {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Authitems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lftauth {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.lftauth h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: -0.02em;
+  color: #302f2e;
+  margin: 0;
+  font-family: var(--satoshi-font);
+}
+.lftauth p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #302f2e;
+  margin: 0;
+}
+.Ryttauth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Ryttauth p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: var(--black-text);
+  margin: 0;
+}
+.Ryttauth .form-switch input {
+  width: 64px;
+  height: 32px;
+  border: none !important;
+  background-color: #d9d9d9 !important;
+}
+
+.opt5 {
+  opacity: 0.5;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}

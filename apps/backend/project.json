@@ -15,7 +15,11 @@
         "bundle": false,
         "main": "apps/backend/src/main.ts",
         "tsConfig": "apps/backend/tsconfig.app.json",
-        "assets": ["apps/backend/src/assets"],
+        "assets": [{
+          "input": "apps/backend/src/Uploads/Images/",
+          "output": "apps/backend/src/Uploads/Images/",
+          "glob": "*.png"
+        }],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
