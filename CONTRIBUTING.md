@@ -4,7 +4,6 @@ We would love for you to contribute to `nxdemo` and help make it even better tha
 today! As a contributor, here are the guidelines we would like you to follow:
 
  - [Code of Conduct](#coc)
- - [Question or Problem?](#question)
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
  - [Submission Guidelines](#submit)
@@ -13,20 +12,6 @@ today! As a contributor, here are the guidelines we would like you to follow:
 
 ## <a name="coc"></a> Code of Conduct
 Please read and follow our [Code of Conduct][coc].
-
-## <a name="question"></a> Got a Question or Problem?
-
-Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. You've got much better chances of getting your question answered on [Stack Overflow](https://stackoverflow.com/questions/tagged/ngx-bootstrap) where the questions should be tagged with tag `ngx-bootstrap`, or you can join to our [slack] channel.
-
-Stack Overflow is a much better place to ask questions since:
-
-- there are thousands of people willing to help on Stack Overflow
-- questions and answers stay available for public viewing so your question / answer might help someone else
-- Stack Overflow's voting system assures that the best answers are prominently visible.
-
-To save your and our time, we will systematically close all issues that are requests for general support and redirect people to Stack Overflow.
-
-If you would like to chat about the question in real-time, you can reach out via [our slack channel][slack].
 
 ## <a name="issue"></a> Found a Bug?
 If you find a bug in the source code, you can help us by
@@ -166,7 +151,7 @@ Must be one of the following:
 * **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 * **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, SauceLabs)
 * **docs**: Documentation only changes
-* **feat**: A new feature
+* **feature**: A new feature
 * **fix**: A bug fix
 * **perf**: A code change that improves performance
 * **refactor**: A code change that neither fixes a bug nor adds a feature
@@ -174,27 +159,13 @@ Must be one of the following:
 * **test**: Adding missing tests or correcting existing tests
 
 ### Scope
-The scope should be the name of the npm package affected (as perceived by person reading changelog generated from commit messages.
+The scope should be the name of the project or npm package affected (as perceived by person reading changelog generated from commit messages.
 
 The following is the list of supported scopes:
 
-* **accordion**
-* **alerts**
-* **buttons**
-* **carousel**
-* **collapse**
-* **datepicker**
-* **dropdown**
-* **modal**
-* **pagination**
-* **popover**
-* **progressbar**
-* **rating**
-* **sortable**
-* **tabs**
-* **timepicker**
-* **tooltip**
-* **typeahead**
+* **reactfront**
+* **nodeapi**
+* **rnapp**
 
 ### Subject
 The subject contains succinct description of the change:
@@ -213,15 +184,9 @@ reference GitHub issues that this commit **Closes**.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with space or two newlines. The rest of the commit message is then used for this.
 
-A detailed explanation can be found in this [document][commit-message-format].
-
 
 [coc]: https://github.com/valor-software/ngx-bootstrap/blob/development/CODE_OF_CONDUCT.md
-[commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
-[github]: https://github.com/valor-software/ngx-bootstrap
-[slack]: https://join.slack.com/t/ngx-home/shared_invite/enQtNTExMTY5MzcwMTM0LWVjZGU2MjI4MTVhMGVlMTc2OWRiMzA0NzBhNDU5YzQ0MDM3MWI5NzJjZTUzNzIxZmNjYmFlMjU2MzE0YmY0NWY
+[github]: https://github.com/suryansh9315/nxdemo
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
-[plunker]: http://plnkr.co/edit
-[stackoverflow]: http://stackoverflow.com/questions/tagged/ngx-bootstrap
-[submit-issue]: https://github.com/valor-software/ngx-bootstrap/issues/new
-[submit-pr]: https://github.com/valor-software/ngx-bootstrap/compare
+[submit-issue]: https://github.com/suryansh9315/nxdemo/issues/new
+[submit-pr]: https://github.com/suryansh9315/nxdemo/compare
