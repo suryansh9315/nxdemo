@@ -184,7 +184,7 @@ reference GitHub issues that this commit **Closes**.
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with space or two newlines. The rest of the commit message is then used for this.
 
 
-[coc]: https://github.com/suryansh9315/nxdemo/blob/development/CODE_OF_CONDUCT.md
+[coc]: https://github.com/suryansh9315/nxdemo/CODE_OF_CONDUCT.md
 [github]: https://github.com/suryansh9315/nxdemo
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [submit-issue]: https://github.com/suryansh9315/nxdemo/issues/new
