@@ -37,17 +37,17 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * Search [GitHub](https://github.com/suryansh9315/nxdemo/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 * Create a fork from nxdemo repository as it is described in [GitHub docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
-* Clone the Repository: Clone your forked repository to your local machine using `git clone`.
+* Clone your forked repository to your local machine using `git clone`.
 
      ```shell
      git clone https://github.com/yourusername/nxdemo.git
      cd nxdemo
      ```
      
-* Make your changes in a new git branch:
+* Create a new branch for your changes instead of using the main branch.
 
      ```shell
-     git checkout -b my-fix-branch development
+     git checkout -b your-branch-name
      ```
 
 * Follow our [Coding Rules](#rules).
@@ -64,7 +64,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * Push your branch to GitHub:
 
     ```shell
-    git push origin my-fix-branch
+    git push origin your-branch-name
     ```
 
 * In GitHub, send a pull request to `development` branch.
@@ -83,7 +83,7 @@ from the main (upstream) repository:
 * Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
 
     ```shell
-    git push origin --delete my-fix-branch
+    git push origin --delete your-branch-name
     ```
 
 * Check out the development branch:
@@ -95,7 +95,7 @@ from the main (upstream) repository:
 * Delete the local branch:
 
     ```shell
-    git branch -D my-fix-branch
+    git branch -D your-branch-name
     ```
 
 * Update your development with the latest upstream version:
