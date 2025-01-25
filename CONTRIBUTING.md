@@ -1,4 +1,4 @@
-# Contributing to nxdemo
+# Contributing to `nxdemo`
 
 We would love for you to contribute to `nxdemo` and help make it even better than it is
 today! As a contributor, here are the guidelines we would like you to follow:
@@ -37,7 +37,6 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * Search [GitHub](https://github.com/suryansh9315/nxdemo/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 * Create a fork from nxdemo repository as it is described in [GitHub docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
-* To build lib for development, follow [this manual](https://github.com/valor-software/ngx-bootstrap#how-to-build-lib-for-development)
 * Make your changes in a new git branch:
 
      ```shell
@@ -131,7 +130,7 @@ to read on GitHub as well as in various git tools.
 
 The footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-Samples: (even more [samples](https://github.com/valor-software/ngx-bootstrap/commits/development))
+Samples: (even more [samples](https://github.com/suryansh9315/nxdemo/commits/development))
 
 ```
 docs(changelog): update change log to beta.5
@@ -185,7 +184,7 @@ reference GitHub issues that this commit **Closes**.
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with space or two newlines. The rest of the commit message is then used for this.
 
 
-[coc]: https://github.com/valor-software/ngx-bootstrap/blob/development/CODE_OF_CONDUCT.md
+[coc]: https://github.com/suryansh9315/nxdemo/blob/development/CODE_OF_CONDUCT.md
 [github]: https://github.com/suryansh9315/nxdemo
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
 [submit-issue]: https://github.com/suryansh9315/nxdemo/issues/new
