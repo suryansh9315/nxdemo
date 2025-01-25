@@ -37,13 +37,19 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 * Search [GitHub](https://github.com/suryansh9315/nxdemo/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 * Create a fork from nxdemo repository as it is described in [GitHub docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+* Clone the Repository: Clone your forked repository to your local machine using `git clone`.
+
+     ```shell
+     git clone https://github.com/yourusername/nxdemo.git
+     cd nxdemo
+     ```
+     
 * Make your changes in a new git branch:
 
      ```shell
      git checkout -b my-fix-branch development
      ```
 
-* Create your patch, **including appropriate test cases**.
 * Follow our [Coding Rules](#rules).
 * Run `npm run test` and ensure that all tests pass.
 * Commit your changes using a descriptive commit message that follows our
