@@ -156,7 +156,7 @@ Must be one of the following:
 * **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 * **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, SauceLabs)
 * **docs**: Documentation only changes
-* **feature**: A new feature
+* **feat**: A new feature
 * **fix**: A bug fix
 * **perf**: A code change that improves performance
 * **refactor**: A code change that neither fixes a bug nor adds a feature
