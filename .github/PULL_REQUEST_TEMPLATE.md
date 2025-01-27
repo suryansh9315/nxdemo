@@ -19,7 +19,10 @@ To help the rest of the community review your change, please follow the instruct
 ## What is the new behavior?
 <!-- Describe the changes. -->
 
-Fixes/Implements/Closes #[Issue Number].
+## Related Issue(s)
+<!-- Please link the issue being fixed so it gets closed when this is merged. -->
+
+Fixes #
 
 <!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
 
